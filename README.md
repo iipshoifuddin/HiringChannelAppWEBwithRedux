@@ -1,57 +1,68 @@
-# Hiring Channels App
+<h1 align="center">Hiring Channels</h1>
+<p align="center">
+  <img width="100" height="100" src="./ScreenShot/logo.png"/>
+  <img height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png">
+</p>
+<p align="center">
+  Built with React Native.
+</p>
 
-Hirring Channels is an application created for the purpose of facilitating job seekers and employers, where job seekers and employers only register in this application and find their respective matches, without having to meet in an event and uses the web in the application of hirirng channels operation.
+## Table of Contents
 
-![](hirringChannels.PNG)
+- [Introduction](#introduction)
+- [Requirements](#requirements)
+- [Usage](#usage-for-development)
+- [Create Environment Variable](#create-environment-variable)
+- [Screenshots](#screenshots)
+- [Related Project](#related-project-backend)
 
-## pre-Instalation
+## Introduction
 
-before installing this application, first install Node JS
+<b>Hiring Channels</b> is an application created for the purpose of facilitating job seekers and employers, where job seekers and employers only register in this application and find their respective matches, without having to meet in an event and use the web to operate this application.
 
-_https://nodejs.org/en/download/
+## Requirements
+- [`nodeJS`](https://nodejs.org/en/download/)
+- [`npm`](https://www.npmjs.com/get-npm)
+- [`Backend HiringChannels`](https://github.com/iipshoifuddin/hiringChannelAppRestfull)
 
-## Installation
+## Usage for development
 
-OS X & Linux & Windows:
+1. Open app's directory in CMD or Terminal
+2. Type `npm install`
+3. Make new file a called **.env**, set up first [here](#create-environment-variable)
+4. Before run this, you must run backend first
+5. Choose HTTP Method and enter request url.(ex. localhost:8081)
 
-```sh
-npm init
+
+## Create Environment Variable
+
+For Linux :
+```
+$ cp .env.example .env
+$ nano .env
 ```
 
-```sh
-npm install
+For Windows :
 ```
-
-
-## Development setup
-
-Before using this application, first enter the project folder _your_project and create a dotEnv file:
-
-Linux :
-```sh
-cp example.ENV .ENV
+$ copy .env.example .env
 ```
+and open .env file with text editor
 
-Windows :
-```sh
-copy example.ENV .ENV /a
-```
-
-then edit the file as follows :
-```sh
+# Set API KEY
 
 ```
-
-
-## Running
-
-To run this application, you must run the following command :
-
-```sh
-npm start
+API_ENDPOINT=Your endpoint API
+BASE_URL=Your Base URL
 ```
 
-```sh
-open web -> http://localhost:3000/
-```
- 
+## Screenshots
+
+<div align="center">
+    <img src="./hirringChannels.PNG">
+</div>
+
+## Related Project (Backend)
+
+- [`Backend HiringChannels`](https://github.com/iipshoifuddin/hiringChannelAppRestfull)
+
+
